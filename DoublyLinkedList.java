@@ -119,7 +119,7 @@ public class DoublyLinkedList<E> {
         Node<E> walk = header.getNext();
 
         while (walk != trailer) {
-System.out.println(walk.getElement());
+// System.out.println(walk.getElement());
             if (walk.getElement() == null) {
                 Node<E> nodeToBeRemoved = walk;
                 walk = walk.getNext();
