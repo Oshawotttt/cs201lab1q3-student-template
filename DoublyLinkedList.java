@@ -116,5 +116,29 @@ public class DoublyLinkedList<E> {
 
     public void group(){
 
+        Node<E> walk = header.getNext();
+
+        while (walk != trailer) {
+            if (walk.getElement() == null) {
+                Node<E> nodeToBeRemoved = walk;
+                walk = walk.getNext();
+                remove(nodeToBeRemoved);
+                addFirst(null);
+            }
+            walk = walk.getNext();
+        }
     }
+
+    // public static void main(String[] args) {
+    //     DoublyLinkedList<Integer> test1 = new DoublyLinkedList<Integer>();
+    //     test1.addFirst(1);
+    //     test1.addFirst(2);
+    //     test1.addFirst(null);
+    //     test1.addFirst(3);
+
+    //     System.out.println(test1);
+    //     test1.group();
+    //     System.out.println(test1);
+
+    // }
 }
