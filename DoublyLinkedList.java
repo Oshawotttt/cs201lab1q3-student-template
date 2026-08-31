@@ -131,26 +131,26 @@ System.out.println(walk.getElement());
         }
     }
 
-    public static void main(String[] args) {
-        DoublyLinkedList<Integer> test1 = new DoublyLinkedList<Integer>();
-        // test1.addFirst(1);
-        // test1.addFirst(2);
-        test1.addFirst(null);
-        test1.addFirst(null);
-        // test1.addFirst(3);
+    // public static void main(String[] args) {
+    //     DoublyLinkedList<Integer> test1 = new DoublyLinkedList<Integer>();
+    //     test1.addFirst(1);
+    //     test1.addFirst(2);
+    //     test1.addFirst(null);
+    //     test1.addFirst(null);
+    //     test1.addFirst(3);
 
-        test1.addFirst(null);
-        test1.addFirst(null);
-        test1.addFirst(null);
-        test1.addFirst(null);
-        test1.addFirst(null);
-        test1.addFirst(null);
-        test1.addFirst(null);
-        // test1.addFirst(3);
+    //     // test1.addFirst(null);
+    //     // test1.addFirst(null);
+    //     // test1.addFirst(null);
+    //     // test1.addFirst(null);
+    //     // test1.addFirst(null);
+    //     // test1.addFirst(null);
+    //     // test1.addFirst(null);
+    //     // test1.addFirst(3);
 
-        System.out.println(test1);
-        test1.group();
-        System.out.println(test1);
+    //     System.out.println(test1);
+    //     test1.group();
+    //     System.out.println(test1);
 
-    }
+    // }
 }
